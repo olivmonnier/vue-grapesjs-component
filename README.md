@@ -22,3 +22,6 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## TODO
+https://vuejs.org/v2/cookbook/packaging-sfc-for-npm.html
