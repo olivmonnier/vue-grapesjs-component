@@ -42,6 +42,11 @@ export default {
         styles: JSON.parse(JSON.stringify(this.editor.getStyle()))
       });
     });
+  },
+  updated() {
+    this.$nextTick(() => {
+      this.editor.setComponents(this.$refs.children.innerHTML)
+    })
   }
 }
 </script>
