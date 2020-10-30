@@ -3,19 +3,22 @@
     <div>
       <button @click="handleMessageShowing">Show Message</button>
     </div>
-    <Grapes class="editor">
+    <vue-grapesjs-component class="editor">
       <h1>Hello World</h1>
       <p v-show="showingMessage">Hello everyone</p>
-    </Grapes>
+    </vue-grapesjs-component>
   </div>
 </template>
 
 <script>
-import Grapes from './components/Grapes';
+import Vue from 'vue';
+import VueGrapesjsComponent from '@/vue-grapesjs-component.vue';
 
-export default {
-  name: 'App',
-  components: { Grapes },
+export default Vue.extend({
+  name: 'ServeDev',
+  components: {
+    VueGrapesjsComponent
+  },
   data() {
     return {
       showingMessage: false
@@ -26,7 +29,7 @@ export default {
       this.showingMessage = !this.showingMessage
     }
   }
-}
+});
 </script>
 
 <style>

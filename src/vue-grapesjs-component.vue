@@ -6,12 +6,13 @@
     </div>
   </div>
 </template>
+
 <script>
 import "grapesjs/dist/css/grapes.min.css";
 import grapesjs from "grapesjs";
 
 export default {
-  name: "Grapes",
+  name: 'VueGrapesjsComponent', // vue component name
   props: {
     config: {
       type: Object
@@ -52,12 +53,12 @@ export default {
 </script>
 
 <style scoped>
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-.hidden {
-  display: none;
-}
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .hidden {
+    display: none;
+  }
 </style>
