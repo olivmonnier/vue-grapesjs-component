@@ -13,6 +13,7 @@
 <script>
 import Vue from 'vue';
 import VueGrapesjsComponent from '@/vue-grapesjs-component.vue';
+import "grapesjs/dist/css/grapes.min.css";
 
 export default Vue.extend({
   name: 'ServeDev',
