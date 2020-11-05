@@ -1,5 +1,8 @@
 # vue-grapesjs-component
 
+[![NPM package](https://img.shields.io/npm/v/vue-grapesjs-component.svg?style=flat-square)](https://www.npmjs.org/package/vue-grapesjs-component)
+[![NPM downloads](http://img.shields.io/npm/dm/vue-grapesjs-component.svg?style=flat-square)](https://npmjs.org/package/vue-grapesjs-component)
+
 Use grapesjs like vue component.
 
 ## Install
